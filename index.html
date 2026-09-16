@@ -28,6 +28,7 @@
      
 </head>
 <body>
+    
     <header>
         <p style="font-size: 18px;">Juan Haro</p>
         <nav class="header-navigation">
@@ -40,75 +41,63 @@
     </header>
     
     <main>
-        <!-- Hero -->
-        <section id="hero">
-            <h3 style="color: var(--color-highlight);">Juan Haro</h3>
-            <h1>Full stack developer</h1>
-            <!-- TODO: animate and show different words after "building" -->
-            <h2 style="color: var(--color-text);">Building <span style="color: var(--color-highlight);">>...</span></h2>
-        </section>
+    <!-- Hero -->
+    <section id="hero">
+        <h3 style="color: var(--color-highlight);">Juan Haro</h3>
+        <h1>Full stack developer</h1>
+        <!-- TODO: animate and show different words after "building" -->
+        <h2 style="color: var(--color-text);">Building <span style="color: var(--color-highlight);">>...</span></h2>
+    </section>
+    <!-- My experience -->
+        <section id="experience-section">
+            <h3>>My experience</h3>
+            <div id="work-container">
+                <!-- Projects -->
+                <div class="experience-container">
+                    <h3>>Projects</h3>
+                    <a href="https://juanharodev.github.io" class="experience-card">
+                        >Game dev portfolio
+                    </a>
+                    <a href="https://github.com/juanharodev/FanWebDarkSouls" class="experience-card">
+                        >Dark souls fan web
+                    </a>
+                    
+                </div>
+                <!-- Work experience -->
+                <div class="experience-container">
+                    <h3>>Working</h3>
+                    <div class="experience-card">
+                        <h4>Web designer intership.</h4>
+                        <p>Symaxi | February 2026 - July 2026</p>
+                        <ul>
+                            <li>
+                                Designed and developed websites utilizing WordPress and Divi.
+                            </li>
+                            <li>
+                                Implemented and managed WordPress plugins to enhance site functionality.
+                            </li>
+                            <li>
+                                Generated and applied SEO strategies to improve website structure and visibility.
+                            </li>
 
+                        </ul>
+                    </div>
+                </div>
+                <!-- Education -->
+                <div class="experience-container">
+                    <h3>>Education</h3>
+                    <div class="experience-card">
+                        <h4>Bachelor's degree in video game programming.</h4>
+                        <p>2022 - 2026 | University of advanced technologies (UNIAT)</p>
+                    </div>
+                </div>
+                <a href="/portfolio.html" style="justify-self: flex-end; margin: 12px; padding: 12px; background-color: var(--color-card); border-radius: 6px;">Discover all my work!</a>
+            </div>
+        </section>
     </main>
     
-    <script>
-        var f = document.querySelector("footer");
-        var y = document.createTextNode(new Date().getFullYear());
-        f.appendChild(y);
-    </script>
-    <!-- My experience -->
-    <section id="experience-section">
-        <h3>>My experience</h3>
-        <div id="work-container">
-            <!-- Projects -->
-            <div class="experience-container">
-                <h3>>Projects</h3>
-                <a href="https://juanharodev.github.io" class="experience-card">
-                    >Game dev portfolio
-                </a>
-                <a href="https://github.com/juanharodev/FanWebDarkSouls" class="experience-card">
-                    >Dark souls fan web
-                </a>
-                
-            </div>
-            <!-- Work experience -->
-            <div class="experience-container">
-                <h3>>Working</h3>
-                <div class="experience-card">
-                    <h4>Web designer intership.</h4>
-                    <p>Symaxi | February 2026 - July 2026</p>
-                    <ul>
-                        <li>
-                            Designed and developed websites utilizing WordPress and Divi.
-                        </li>
-                        <li>
-                            Implemented and managed WordPress plugins to enhance site functionality.
-                        </li>
-                        <li>
-                            Generated and applied SEO strategies to improve website structure and visibility.
-                        </li>
 
-                    </ul>
-                </div>
-            </div>
-            <!-- Education -->
-            <div class="experience-container">
-                <h3>>Education</h3>
-                <div class="experience-card">
-                    <h4>Bachelor's degree in video game programming.</h4>
-                    <p>2022 - 2026 | University of advanced technologies (UNIAT)</p>
-                </div>
-            </div>
-            <a href="/portfolio.html" style="justify-self: flex-end; margin: 12px; padding: 12px; background-color: var(--color-card); border-radius: 6px;">Discover all my work!</a>
-        </div>
-    </section>
-
-    <footer>
-        &copy; Juan Haro all right reserved 
-    </footer>
-    <script>
-        var f = document.querySelector("footer");
-        var y = document.createTextNode(new Date().getFullYear());
-        f.appendChild(y);
-    </script>
+    <!-- Footer -->
+    <script src="/Components/RunningSections/footer.js"></script>
 </body>
 </html>  
