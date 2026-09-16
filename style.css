@@ -10,6 +10,19 @@
     --full-heigth: calc(100vh - 64px);
 }
 
+@media (prefers-color-scheme: dark){
+    :root{
+        /* Theme colors */
+        --background: #0a1419;
+        --text-color: white;
+        --color-heading: #99DDFF;
+        --color-anchor: #99DDFF;
+        --color-anchor-hover: #1BF8E5;
+        --color-running-sections: #214354;
+        --color-highlight: #42C48E;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
