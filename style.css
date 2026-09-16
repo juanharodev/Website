@@ -8,6 +8,7 @@
     --color-running-sections: #DFEDF6;
     --color-highlight: #036621;
     --full-heigth: calc(100vh - 64px);
+    --color-card: #DFEDF6;
 }
 
 @media (prefers-color-scheme: dark){
@@ -20,6 +21,8 @@
         --color-anchor-hover: #1BF8E5;
         --color-running-sections: #214354;
         --color-highlight: #42C48E;
+
+        --color-card:#171e27;
     }
 }
 
@@ -97,3 +100,36 @@ body{
     width: 100%;
     min-height: var(--full-heigth);
 }
+
+#experience-section{
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+#work-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+@media (width >= 992px) {
+    #work-container{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.experience-container{
+    padding: 24px 12px 24px 12px; 
+}
+
+.experience-card{
+    background-color: var(--color-card);
+    display: block;
+    padding: 18px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+ul{
+    padding-left: 40px;
+}
+

@@ -10,11 +10,11 @@
     <title>Juan Haro | Home</title>
     <!-- SEO Meta Tags -->
     <meta name="description" content="I'm Juan Haro a Jr. software developer focused on creating the ideal app for you and your clients.">
-    <meta name="keywords" content="Developer, Full stack, Front end, back end, Portfolio"></menu>
+    <meta name="keywords" content="Developer, Full stack, Front end, back end"></menu>
     <meta name="author" content="Juan Haro">
     <!-- Open Graph meta tags -->
     <meta property="og:title" content="Juan Haro - Full Stack Developer">
-    <meta property="og:description" content="Juan Haro's Portfolio Home Page">
+    <meta property="og:description" content="Juan Haro's Web Home Page">
     <meta property="og:image" content="">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
@@ -50,6 +50,58 @@
 
     </main>
     
+    <script>
+        var f = document.querySelector("footer");
+        var y = document.createTextNode(new Date().getFullYear());
+        f.appendChild(y);
+    </script>
+    <!-- My experience -->
+    <section id="experience-section">
+        <h3>>My experience</h3>
+        <div id="work-container">
+            <!-- Projects -->
+            <div class="experience-container">
+                <h3>>Projects</h3>
+                <a href="https://juanharodev.github.io" class="experience-card">
+                    >Game dev portfolio
+                </a>
+                <a href="https://github.com/juanharodev/FanWebDarkSouls" class="experience-card">
+                    >Dark souls fan web
+                </a>
+                
+            </div>
+            <!-- Work experience -->
+            <div class="experience-container">
+                <h3>>Working</h3>
+                <div class="experience-card">
+                    <h4>Web designer intership.</h4>
+                    <p>Symaxi | February 2026 - July 2026</p>
+                    <ul>
+                        <li>
+                            Designed and developed websites utilizing WordPress and Divi.
+                        </li>
+                        <li>
+                            Implemented and managed WordPress plugins to enhance site functionality.
+                        </li>
+                        <li>
+                            Generated and applied SEO strategies to improve website structure and visibility.
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- Education -->
+            <div class="experience-container">
+                <h3>>Education</h3>
+                <div class="experience-card">
+                    <h4>Bachelor's degree in video game programming.</h4>
+                    <p>2022 - 2026 | University of advanced technologies (UNIAT)</p>
+                </div>
+            </div>
+            <a href="/portfolio.html" style="justify-self: flex-end; margin: 12px; padding: 12px; background-color: var(--color-card); border-radius: 6px;">Discover all my work!</a>
+        </div>
+    </section>
+
     <footer>
         &copy; Juan Haro all right reserved 
     </footer>
