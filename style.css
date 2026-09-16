@@ -1,0 +1,86 @@
+:root{
+    /* Theme colors */
+    --background: #F6FAFA;
+    --text-color: black;
+    --color-heading: #1860be;
+    --color-anchor: #0000ff;
+    --color-anchor-hover: #7d00ff;
+    --color-running-sections: #DFEDF6;
+    --color-highlight: #036621;
+    --full-heigth: calc(100vh - 64px);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: var(--text-color);
+    background-color: var(--background);
+}
+
+a{
+    color: var(--color-anchor);
+}
+
+a:hover, a:focus-visible{
+    color: var(--color-anchor-hover);
+    text-decoration: underline dashed;
+}
+
+h1,h2,h3{
+    color: var(--color-heading);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Michroma", sans-serif;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+header{
+    background-color: var(--color-running-sections);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 21px;
+}
+
+footer{
+    text-align: center;
+    padding: 24px;
+    background-color: var(--color-running-sections);
+}
+
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.header-navigation > *{
+    padding: 12px;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    min-height: var(--full-heigth);
+}
