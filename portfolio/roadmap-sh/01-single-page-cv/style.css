@@ -1,0 +1,21 @@
+h1{
+    color: #1860be;
+}
+
+h2{
+    color: #036621;
+}
+
+h3{
+    color: #214354;
+}
+
+a{
+    color: #0000ff;
+    text-decoration: underline solid;
+}
+
+a:hover, a:focus-visible{
+    color: #7d00ff;
+    text-decoration: underline dashed;
+}
